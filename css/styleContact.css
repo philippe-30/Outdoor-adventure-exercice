@@ -30,15 +30,15 @@ li {
 
 /* tete de page */
 header {
-    position: relative;
-    background-attachment: fixed;
-    background-image: url('../img/hero-bg.jpg');
+
+    background-image: url('../img/about-bg-2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 770px;
     color: white;
-    /* filter: grayscale(0.40); */
+    
+    /* filter: brightness(80%); */
 
 }
 
@@ -48,7 +48,7 @@ header {
     font-family: roboto;
     height: 80px;
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 .logoHeader {
@@ -63,7 +63,6 @@ header {
     color: white;
     list-style: none;
     font-size: 30px;
-
 
 }
 
@@ -84,15 +83,11 @@ nav li {
 
 }
 
-
-/* main Section */
-
 .mainSection {
-    background-size: cover;
-    background-repeat: no-repeat;
     width: 100%;
-    height: 800px;
+    height: 690px;
     color: white;
+
 }
 
 .explore {
@@ -100,81 +95,18 @@ nav li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    opacity: 0.5;
     width: 100%;
-    height: 87%;
-
-}
-
-hr {
-    width: 80px;
-    border: 1px solid red;
-    margin: 30px 0;
-}
-
-.explore p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0;
-
+    height: 100%;
+    background-color: black;
+    opacity: 0.3;
 }
 
 .explore h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 64px;
+    font-weight: bold;
+    font-size: 100px;
     margin: 0;
 }
-
-.explore a {
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 700;
-    margin-top: 80px;
-    font-size: 14px;
-    background-color: red;
-    padding: 15px 45px;
-    border-radius: 50px;
-    color: white;
-
-}
-
-/* .explore a:hover {
-    background-color: #da1c4b;
-
-} */
-
-/* banner */
-
-.banner {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(227, 235, 241, 0.9);
-    font-family: 'Montserrat', sans-serif;
-    height: 175px;
-
-}
-
-.photoLogoBanner {
-    margin: 10px;
-    padding-left: 80px;
-    width: 200px;
-}
-
-.bannerFuerat {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    line-height: 60px;
-    color: black;
-    margin-top: 20px;
-    font-size: 30px;
-    padding-left: 60px;
-
-}
-
 
 /* Upcoming Events< */
 .mainUpcoming {
@@ -183,7 +115,6 @@ hr {
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     margin-top: 120px;
-    /* height: 800px; */
 }
 
 .titreUpcoming {
@@ -202,14 +133,26 @@ hr {
 .titreUpcoming hr {
     width: 200px;
     border: 2px solid red;
-    margin: 50px 0;
+    margin: 30px 0;
+}
+
+.titreUpcoming p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 40px;
+    font-size: 30px;
+    margin: 20px 0;
+    width: 75%;
+
 }
 
 .pageUpcoming {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding-left: 50px;
+    margin-top: 60px;
 }
 
 .photoUpcoming {
@@ -255,118 +198,117 @@ hr {
 
 }
 
-/* Destination */
+
+/* OWhy Outdoor Adventure */
 
 .mainDestination {
     display: flex;
     flex-direction: row;
-    width: 70%;
-    margin: 0 120px;
+    justify-content: space-around;
+    background-color: #ececec;
+    width: 100%;
     padding-left: 40px;
-    margin-top: 120px;
+    height: 700px;
 }
 
 .mainSectionDestination {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    width: 60%;
-    height: 700px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+
 }
 
 .mainSectionDestination h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 70px;
+    font-size: 60px;
     margin-top: 30px;
+}
+
+.mainSectionDestination h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.mainSectionDestination h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
 }
 
 .mainSectionDestination p {
     font-family: 'Montserrat', sans-serif;
-    line-height: 40px;
-    font-size: 25px;
-    margin: 30px 0;
-    width: 500px;
+    line-height: 30px;
+    font-size: 20px;
+    margin: 10px 0;
+    width: 700px;
 
 }
 
-.mainSectionDestination a {
+.mainSectionDestinationContact {
+    margin-top: 40px;
+}
+
+.mainSectionDestinationContact a {
     font-family: 'Noto Sans', sans-serif;
     font-weight: bold;
-    margin-top: 20px;
-    font-size: 25px;
+    font-size: 20px;
     background-color: red;
     padding: 20px 45px;
     border-radius: 50px;
     color: white;
-    width: 290px;
+    width: 270px;
+    margin-left: 0;
 
 }
 
-.mainSectionDestination hr {
-    width: 100px;
-    border: 2px solid red;
-    margin: 40px 0;
+
+.inputInscription {
+    width: 90%;
+    margin-bottom: 15px;
+    font-size: 20px;
 }
 
-.photoDestination {
-    margin: 20px;
-    width: 500px;
+.inputInscription,
+.buttonInscription {
+    border: solid 1px lightgray;
+    padding-left: 20px;
+    background-color: #FFFFFF;
+    height: 50px;
 }
 
-/* bg fx */
-
-.mainSectionBgFx {
-    position: relative;
-    background-attachment: fixed;
-    background-image: url('../img/section-bg-img.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 770px;
-    color: white;
-    filter: grayscale(0.30);
-    /* background-color: black;
-    opacity: 0.6; */
+.textContact {
+    border: solid 1px lightgray;
+    padding-left: 20px;
+    background-color: #FFFFFF;
+    height: 200px;
+    font-size: 20px;
 }
 
-.mainSectionBgFxTexte {
-    padding-left: 50%;
-    padding-top: 100px;
 
+
+.logoContact a {
+    text-decoration: none;
 }
 
-.mainSectionBgFxTexte h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 70px;
-    margin-top: 30px;
+.logoContact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70px;
+    width: 300px;
 }
 
-.mainSectionBgFxTexte p {
-    font-family: 'Montserrat', sans-serif;
-    line-height: 40px;
-    font-size: 25px;
-    margin: 30px 0;
-    width: 500px;
-
+.imglogoContact {
+    /* display: flex; */
+    border-radius: 20px;
+    padding-left: 10px;
+    height: 50px;
+    width: 50px;
 }
 
-.mainSectionBgFxTexte a {
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: bold;
-    font-size: 25px;
-    background-color: red;
-    padding: 20px 45px;
-    border-radius: 50px;
-    color: white;
-    width: 290px;
-
-}
-
-.mainSectionBgFxTexte hr {
-    width: 100px;
-    border: 2px solid red;
-    margin: 40px 0;
-}
 
 /* footer */
 .footer {
@@ -379,7 +321,6 @@ hr {
     color: white;
     font-size: 20px;
     padding: 30px;
-    margin-top: 50px;
 }
 
 .footer p {
