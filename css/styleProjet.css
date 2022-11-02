@@ -3,35 +3,11 @@
 
 }
 
-*,
-::before,
-::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style-type: none;
-}
-
-li {
-    list-style-type: none;
-}
 
 /* tete de page */
 header {
 
-    background-image: url('../img/project-background.jpg');
+    background-image:linear-gradient(0deg, rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)), url('../img/project-background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -237,7 +213,7 @@ nav li {
     line-height: 35px;
     font-size: 25px;
     margin: 10px 0;
-    /* width: 700px; */
+    width: 100%;
 
 }
 
@@ -256,6 +232,7 @@ nav li {
 .tiret p {
     padding-left: 25px;
     font-weight: bold;
+    width: 230px;
 }
 
 /* section image 1 */
@@ -402,22 +379,3 @@ nav li {
     margin-left: -60%;
 }
 
-
-/* footer */
-.footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    font-family: roboto;
-    color: white;
-    font-size: 20px;
-    padding: 30px;
-}
-
-.footer p {
-    align-items: center;
-    padding: 20px;
-    font-size: 25px;
-}

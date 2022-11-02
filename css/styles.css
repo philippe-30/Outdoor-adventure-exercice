@@ -32,7 +32,7 @@ li {
 header {
     position: relative;
     background-attachment: fixed;
-    background-image: url('../img/hero-bg.jpg');
+    background-image: linear-gradient(0deg, rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)),url('../img/hero-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -47,8 +47,7 @@ header {
     justify-content: space-around;
     font-family: roboto;
     height: 80px;
-    background-color: black;
-    opacity: 0.5;
+    
 }
 
 .logoHeader {
@@ -100,8 +99,7 @@ nav li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    opacity: 0.5;
+   
     width: 100%;
     height: 87%;
 
@@ -128,8 +126,7 @@ hr {
 }
 
 .explore a {
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 80px;
     font-size: 14px;
     background-color: red;
@@ -139,10 +136,10 @@ hr {
 
 }
 
-/* .explore a:hover {
+.explore a:hover {
     background-color: #da1c4b;
 
-} */
+}
 
 /* banner */
 
@@ -183,7 +180,6 @@ hr {
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     margin-top: 120px;
-    /* height: 800px; */
 }
 
 .titreUpcoming {
@@ -271,7 +267,7 @@ hr {
     flex-direction: column;
     justify-content: flex-start;
     width: 60%;
-    height: 700px;
+    /* height: 700px; */
 }
 
 .mainSectionDestination h2 {
@@ -318,15 +314,13 @@ hr {
 .mainSectionBgFx {
     position: relative;
     background-attachment: fixed;
-    background-image: url('../img/section-bg-img.jpg');
+    background-image: linear-gradient(0deg, rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)), url('../img/section-bg-img.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 770px;
     color: white;
-    filter: grayscale(0.30);
-    /* background-color: black;
-    opacity: 0.6; */
+    
 }
 
 .mainSectionBgFxTexte {
@@ -379,7 +373,6 @@ hr {
     color: white;
     font-size: 20px;
     padding: 30px;
-    margin-top: 50px;
 }
 
 .footer p {

@@ -3,40 +3,17 @@
 
 }
 
-*,
-::before,
-::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style-type: none;
-}
-
-li {
-    list-style-type: none;
-}
 
 /* tete de page */
 header {
 
-    background-image: url('../img/about-bg-2.jpg');
+    background-image: linear-gradient(0deg, rgba(0,0,0, 0.4),  rgba(0,0,0, 0.4)), url('../img/about-bg-2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 770px;
     color: white;
+    
     
     /* filter: brightness(80%); */
 
@@ -47,8 +24,8 @@ header {
     justify-content: space-around;
     font-family: roboto;
     height: 80px;
-    background-color: black;
-    opacity: 0.3;
+    /* background-color: black;
+    opacity: 0.3; */
 }
 
 .logoHeader {
@@ -97,8 +74,8 @@ nav li {
     align-items: center;
     width: 100%;
     height: 100%;
-    background-color: black;
-    opacity: 0.3;
+    /* background-color: black;
+    opacity: 0.3; */
 }
 
 .explore h1 {
@@ -209,6 +186,7 @@ nav li {
     width: 100%;
     padding-left: 40px;
     height: 700px;
+    margin: 0;
 }
 
 .mainSectionDestination {
@@ -291,6 +269,8 @@ nav li {
 
 .logoContact a {
     text-decoration: none;
+    padding: 0;
+    background-color:#ececec;
 }
 
 .logoContact {
@@ -307,24 +287,4 @@ nav li {
     padding-left: 10px;
     height: 50px;
     width: 50px;
-}
-
-
-/* footer */
-.footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    font-family: roboto;
-    color: white;
-    font-size: 20px;
-    padding: 30px;
-}
-
-.footer p {
-    align-items: center;
-    padding: 20px;
-    font-size: 25px;
 }
